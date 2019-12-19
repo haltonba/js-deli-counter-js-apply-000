@@ -13,7 +13,7 @@ function currentLine (queue) {
     return "The line is currently empty.";
   }
   else {
-    let lineArray = []
+    let lineArray = [];
     for (let i = 0; i < queue.length; i++) {
       lineArray.push(`${i + 1}. ${queue[i]}`);
     }
